@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+:root{
+    --pink: rgba(245, 194, 204, 0.6);
+    --lighPink: rgba(250, 202, 210, 0.6);
+    --blue: rgba(192, 216, 228, 0.6);
+    --lightBlue: rgba(197, 225, 235, 0.6);
+    --pinkGradient: rgba(254, 120, 185, 0.6);
+    --purpleGradient: rgba(160, 128, 220, 0.6);
+}
+
+.table{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table header{
+    background: linear-gradient(to right, var(--pinkGradient), var(--purpleGradient));
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 30px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0,  0, 0.45);
+}
+
+.table main{
+    background: linear-gradient(to bottom right, var(--lighPink), var(--lightBlue));
+    padding: 10px;
+}
+
+.challenge{
+    background: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.challenge:nth-of-type(2n){
+    background: var(--blue);
+}
+
+.challenge:not(:last-of-type){
+    margin-bottom: 10px;
+}
+
+.challenge .challenge-description{
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.challenge .challenge-description span{
+    font-size: 12px;
+}
+
+.challenge .challenge-price{
+    color: #fff;
+    background: linear-gradient(to right, var(--pinkGradient), var(--purpleGradient));
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0,  0, 0.4);
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 25%;
+    text-align: center;
+}
+
+.table footer{
+    background: linear-gradient(to left, var(--pinkGradient), var(--purpleGradient));
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0,  0, 0.2);
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 20px;
+}
