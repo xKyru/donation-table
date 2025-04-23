@@ -1,5 +1,5 @@
 const retos = [
-    {id: 0, desc: "🌪️ Vueltitas", bits: 30, subs: 0},
+    {id: 0, desc: "🌪️ Vueltita", bits: 30, subs: 0},
     {id: 1, desc: "🦒 Stream de pie", bits: 250, subs: 1},
     {id: 2, desc: "🦵 5 Sentadillas", bits: 300, subs: 2},
     {id: 3, desc: "🎈 Globo Zing", bits: 500, subs: 3},
