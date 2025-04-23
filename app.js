@@ -4,13 +4,13 @@ const retos = [
     {id: 2, desc: "🦵 5 Sentadillas", bits: 300, subs: 2},
     {id: 3, desc: "🎈 Globo Zing", bits: 500, subs: 3},
     {id: 4, desc: "🔥 Velita", bits: 500, subs: 3},
-    {id: 5, desc: "🧄 Ajo", bits: 777, subs: 7},
-    {id: 6, desc: "💥 Explotar globo", bits: 1000, subs: 7},
-    {id: 7, desc: "✒️ Zing", bits: 666, subs: 2},
+    {id: 5, desc: "✒️ Zing", bits: 666, subs: 2},
+    {id: 6, desc: "🧄 Ajo", bits: 777, subs: 7},
+    {id: 7, desc: "💥 Explotar globo", bits: 1000, subs: 7},
     {id: 8, desc: "💃 Baile de Fortnite", bits: 1500, subs: 10},
     {id: 9, desc: "🎨 Dibujo", bits: 2000, subs: 14},
     {id: 10, desc: "🍪 Harina", bits: 5000, subs: 25},
-    {id: 11, desc: "🧅 Cebolla", bits: 8000, subs: 40},
+    {id: 11, desc: "🧅 Cebolla", bits: 8000, subs: 50},
 ]
 
 window.addEventListener("load", () => {
