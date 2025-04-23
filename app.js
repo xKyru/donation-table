@@ -27,7 +27,7 @@ window.addEventListener("load", () => {
 
             if(challenge.id === 1){
                 let span = document.createElement("span");
-                span.textContent = "(máximo 10 minutos)"
+                span.textContent = "(acumulable 2 veces)"
                 challengeDesc.appendChild(span);
             }
 
